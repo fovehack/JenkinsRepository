@@ -1,0 +1,10 @@
+pipeline {
+  agent any
+  stages {
+    stage("UAT") {
+      steps {
+        echo "Hola que tal"
+      }
+    }
+  }
+}
